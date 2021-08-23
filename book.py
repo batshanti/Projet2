@@ -47,3 +47,12 @@ class Book:
         recup_image = doc.find("img")
         image = recup_image['src']
         self.image_url = image.replace("../../", "http://books.toscrape.com/")
+
+
+    def get_image(self):
+
+        page = requests.get(self.image_url)
+        title_clear = re.sub('[^A-Za-z0-9]+', '', self.title)
+        
+        with open(title_clear+".jpg", "wb") as file:
+            file.write(page.content)
