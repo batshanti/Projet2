@@ -2,6 +2,7 @@ from scrap import *
 from csvv import *
 from book import *
 from category import *
+"""Import de toutes les class de notre projet"""
 
 url = "http://books.toscrape.com/index.html"
 # Création d'une instance de la classe Scrap

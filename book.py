@@ -3,7 +3,7 @@ import bs4
 import re
 
 class Book:
-
+    """Class utilisée pour representer un livre"""
     def __init__(self, url):
         self.product_page_url = url
         self.universal_product_code = ""
@@ -17,8 +17,7 @@ class Book:
         self.image_url = ""
 
     def get_book_infos(self):
-
-# récupère les informations d'un livre sur l'url d'un seul livre
+        """récupère les informations d'un livre sur l'url d'un seul livre"""
 
         page = requests.get(self.product_page_url)
         doc = bs4.BeautifulSoup(page.content, 'html.parser')
@@ -51,7 +50,7 @@ class Book:
 
 
     def get_image(self):
-
+        """ Télécharge l'image d'un livre et le place dans le dossier JPG_FILE """
         page = requests.get(self.image_url)
         title_clear = re.sub('[^A-Za-z0-9]+', '', self.title)
         

@@ -2,7 +2,7 @@ import requests
 import bs4
 
 class Category:
-
+    """Class utilisée pour representé une catégorie de livre"""
     def __init__(self, url):
         self.name = ""
         self.url = url
@@ -10,14 +10,12 @@ class Category:
         self.urls = []
 
     def set_name(self):
-        
-# Récupère le nom de la catégorie
+        """Transforme l'url d'une catégorie pour récupèrer son nom"""
         
         self.name = self.url.split("/books/")[1].split("/index.html")[0].split("_")[0]
 
     def set_urls(self):
-
-# Récupère le nombre de livre par catégorie et détermine le nombre de pages et leurs urls
+        """Récupère le nombre de livre par catégorie et détermine le nombre de pages et leurs urls"""
 
         page = requests.get(self.url)
         doc = bs4.BeautifulSoup(page.content, 'html.parser')
@@ -39,8 +37,7 @@ class Category:
         self.urls = pageUrl
 
     def add_book(self):
-
-# Ajoute les UrLs de chaques livres d'une catégorie dans un tableau
+        """Ajoute les UrLs de chaques livres d'une catégorie dans un tableau"""
 
         for line in self.urls:
             page = requests.get(line)

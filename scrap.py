@@ -2,13 +2,12 @@ import requests
 import bs4
 
 class Scrap:
-
+    """Class utilisée pour effectuer la première extraction depuis la page principale du site"""   
     def __init__(self, url):
         self.url = url
 
     def get_categories(self):
-
-# récupère la liste de toutes les catégories + kes Urls
+        """Récupère la liste de toutes les catégories + kes Urls et renvoi une liste"""
 
         allCategories = []
         homePage = requests.get(self.url)
