@@ -9,14 +9,18 @@ Le script créé des fichiers CSV portant le nom de chacune des catégories et c
 
 ## Utilisation
 
-- Copier le projet depuis github vers un dossier local : 
+- Copier le projet depuis github vers un dossier local :
+
 git clone https://github.com/batshanti/Projet2.git
 
 - Se déplacer dans le dossier : 
+
 cd Projet2/
 
 - Installer les packages :
+
 pip install -r requirements.txt
 
 - Lancer le script :
+
 python p2.py
