@@ -17,6 +17,11 @@ git clone https://github.com/batshanti/Projet2.git
 
 cd Projet2/
 
+- Créer un environement virtuel et l'activer :
+
+python -m venv env
+env/bin/activate.bat
+
 - Installer les packages :
 
 pip install -r requirements.txt
