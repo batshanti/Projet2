@@ -45,3 +45,4 @@ class Category:
             soup = soupPage.find_all("li", class_="col-xs-6 col-sm-4 col-md-3 col-lg-3")
             for lines in soup:
                 self.books.append((lines.h3.a['href']).replace("../../../", "http://books.toscrape.com/catalogue/"))
+

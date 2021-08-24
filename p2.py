@@ -27,3 +27,5 @@ for lines in all_url_category:
                        newBook.category, newBook.review_rating, newBook.image_url]
         newCSV.write_book_infos(liste_infos)
         newBook.get_image()
+
+        

@@ -25,3 +25,4 @@ class Scrap:
                 pass
 
         return allCategories
+

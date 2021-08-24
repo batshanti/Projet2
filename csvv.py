@@ -21,3 +21,4 @@ class Csv:
         with open(self.cat_name + ".csv", "a", newline='', encoding='utf-8') as csvfile:
             writer = csv.writer(csvfile, delimiter=',')
             writer.writerow(liste_infos)
+
