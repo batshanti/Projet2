@@ -6,7 +6,7 @@ class Scrap:
     def __init__(self, url):
         self.url = url
 
-    def getCategories(self):
+    def get_categories(self):
 
 # récupère la liste de toutes les catégories + kes Urls
 

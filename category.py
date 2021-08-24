@@ -9,13 +9,13 @@ class Category:
         self.books = []
         self.urls = []
 
-    def Set_name(self):
+    def set_name(self):
         
 # Récupère le nom de la catégorie
         
         self.name = self.url.split("/books/")[1].split("/index.html")[0].split("_")[0]
 
-    def Set_urls(self):
+    def set_urls(self):
 
 # Récupère le nombre de livre par catégorie et détermine le nombre de pages et leurs urls
 
@@ -38,7 +38,7 @@ class Category:
 
         self.urls = pageUrl
 
-    def Add_Book(self):
+    def add_book(self):
 
 # Ajoute les UrLs de chaques livres d'une catégorie dans un tableau
 

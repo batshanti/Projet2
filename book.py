@@ -16,7 +16,7 @@ class Book:
         self.review_rating = ""
         self.image_url = ""
 
-    def Get_book_infos(self):
+    def get_book_infos(self):
 
 # récupère les informations d'un livre sur l'url d'un seul livre
 
