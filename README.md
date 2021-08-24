@@ -20,6 +20,7 @@ cd Projet2/
 - Créer un environement virtuel et l'activer :
 
 python -m venv env
+
 env/bin/activate.bat
 
 - Installer les packages :
