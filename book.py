@@ -56,5 +56,4 @@ class Book:
         
         with open("JPG_FILE/" title_clear+".jpg", "wb") as file:
             file.write(page.content)
-
             
