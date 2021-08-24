@@ -54,6 +54,6 @@ class Book:
         page = requests.get(self.image_url)
         title_clear = re.sub('[^A-Za-z0-9]+', '', self.title)
         
-        with open("JPG_FILE/" title_clear+".jpg", "wb") as file:
+        with open("JPG_FILE/"+ title_clear+".jpg", "wb") as file:
             file.write(page.content)
             
