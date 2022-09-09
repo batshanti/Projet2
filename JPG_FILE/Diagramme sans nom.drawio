@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-09-09T12:15:06.669Z" agent="5.0 (Windows)" etag="HMGuRp0MAnbNO_oFnv1l" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-09T12:29:16.050Z" agent="5.0 (Windows)" etag="UxzJ0KTKKmKIIgc5huIJ" version="20.3.0" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1422" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="pzetBezUOaXZdso2DsOu-49" value="Events" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;direction=east;" vertex="1" parent="1">
-          <mxGeometry x="470" y="260" width="200" height="302" as="geometry">
+          <mxGeometry x="580" y="270" width="200" height="302" as="geometry">
             <mxRectangle x="410" y="230" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -35,6 +35,39 @@
         </mxCell>
         <mxCell id="pzetBezUOaXZdso2DsOu-62" value="Notes : TEXT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pzetBezUOaXZdso2DsOu-49">
           <mxGeometry y="270" width="200" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="pzetBezUOaXZdso2DsOu-64" value="Client" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="70" width="220" height="286" as="geometry" />
+        </mxCell>
+        <mxCell id="pzetBezUOaXZdso2DsOu-65" value="id : INTEGER NOT NULL [PK]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pzetBezUOaXZdso2DsOu-64">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pzetBezUOaXZdso2DsOu-66" value="First Name :VARCHAR(25) " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pzetBezUOaXZdso2DsOu-64">
+          <mxGeometry y="52" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pzetBezUOaXZdso2DsOu-67" value="Last Name : VARCHAR(25)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pzetBezUOaXZdso2DsOu-64">
+          <mxGeometry y="78" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pzetBezUOaXZdso2DsOu-68" value="Email : VARCHAR(100)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pzetBezUOaXZdso2DsOu-64">
+          <mxGeometry y="104" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pzetBezUOaXZdso2DsOu-69" value="Phone : VARCHAR(20)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pzetBezUOaXZdso2DsOu-64">
+          <mxGeometry y="130" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pzetBezUOaXZdso2DsOu-70" value="Mobile : VARCHAR(20)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pzetBezUOaXZdso2DsOu-64">
+          <mxGeometry y="156" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pzetBezUOaXZdso2DsOu-71" value="Compagny Names : VARCHAR(25)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pzetBezUOaXZdso2DsOu-64">
+          <mxGeometry y="182" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pzetBezUOaXZdso2DsOu-73" value="Date Created : DATETIME" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pzetBezUOaXZdso2DsOu-64">
+          <mxGeometry y="208" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pzetBezUOaXZdso2DsOu-74" value="Date Updated : DATETIME" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pzetBezUOaXZdso2DsOu-64">
+          <mxGeometry y="234" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pzetBezUOaXZdso2DsOu-75" value="Sales Contact : INT [FK]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pzetBezUOaXZdso2DsOu-64">
+          <mxGeometry y="260" width="220" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
