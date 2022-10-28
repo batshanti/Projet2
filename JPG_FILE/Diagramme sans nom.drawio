@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T13:35:28.798Z" agent="5.0 (Windows)" etag="KY9ljhEINga9sNAOCgY_" version="20.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-28T13:49:21.562Z" agent="5.0 (Windows)" etag="vp016SSkKANv9UXwP7qR" version="20.5.0" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1422" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -129,7 +129,7 @@
         <mxCell id="pzetBezUOaXZdso2DsOu-91" value="Password : VARCHAR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="pzetBezUOaXZdso2DsOu-85" vertex="1">
           <mxGeometry y="130" width="180" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="pzetBezUOaXZdso2DsOu-92" value="Team :  INT [FK]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="pzetBezUOaXZdso2DsOu-85" vertex="1">
+        <mxCell id="pzetBezUOaXZdso2DsOu-92" value="Team :  VARCHAR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="pzetBezUOaXZdso2DsOu-85" vertex="1">
           <mxGeometry y="156" width="180" height="26" as="geometry" />
         </mxCell>
         <mxCell id="K2jH9DKJ4ZDeipbv0IoA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;startArrow=ERoneToMany;startFill=0;endArrow=ERone;endFill=0;" parent="1" source="pzetBezUOaXZdso2DsOu-79" target="pzetBezUOaXZdso2DsOu-69" edge="1">
